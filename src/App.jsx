@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate, useParams, Link, useLocation } from 'react-router-dom';
 import { callTutorAgent } from './agents/office-hours/tutorAgent.js';
 import { callHomeworkAgent } from './agents/office-hours/homeworkAgent.js';
